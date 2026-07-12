@@ -2,6 +2,8 @@
 
 Minimal bilingual teaser for **Retro Hockey Manager**, published by Pakki-Pakki Gaming.
 
+The Pakki-Pakki Gaming logo is displayed from `assets/pakki-pakki-gaming-logo.png`.
+
 ## Local preview
 
 Serve the parent directory so the preview uses the GitHub Pages subpath:
