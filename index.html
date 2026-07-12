@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pakki-Pakki Gaming — Independent game studio</title>
+    <title>Retro Hockey Manager — Coming soon | Pakki-Pakki Gaming</title>
     <meta
       name="description"
-      content="Pakki-Pakki Gaming is an independent game studio developing HockeyGM, a persistent online hockey management game."
+      content="Retro Hockey Manager is coming soon from Pakki-Pakki Gaming, an independent game studio in Finland."
     >
-    <meta name="theme-color" content="#082a4a">
+    <meta name="theme-color" content="#eef6f9">
     <link rel="canonical" href="https://spjass.github.io/pakki-pakki-gaming/">
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
     <link
@@ -20,10 +20,10 @@
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://spjass.github.io/pakki-pakki-gaming/">
-    <meta property="og:title" content="Pakki-Pakki Gaming — Independent game studio">
+    <meta property="og:title" content="Retro Hockey Manager — Coming soon">
     <meta
       property="og:description"
-      content="Pakki-Pakki Gaming is an independent game studio developing HockeyGM, a persistent online hockey management game."
+      content="A new season is waiting. Retro Hockey Manager is coming soon."
     >
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Pakki-Pakki Gaming">
@@ -31,133 +31,39 @@
     <script src="./site.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main" data-i18n="accessibility.skip">Skip to content</a>
+    <a class="skip-link" href="#main" data-i18n="accessibility.skip">Skip to teaser</a>
 
     <header class="site-header">
-      <div class="shell header-inner">
-        <a class="wordmark" href="#top" data-i18n-aria="brand.homeLabel" aria-label="Pakki-Pakki Gaming, home">
-          <span class="wordmark-mark" aria-hidden="true">
-            <span>P</span><i></i><span>P</span>
-          </span>
-          <span class="wordmark-type" aria-hidden="true">
-            <strong>Pakki-Pakki</strong>
-            <small>Gaming</small>
-          </span>
-        </a>
+      <a class="studio-lockup" href="#main" aria-label="Pakki-Pakki Gaming" data-i18n-aria="brand.homeLabel">
+        <span class="studio-mark" aria-hidden="true"><b>P</b><i></i><b>P</b></span>
+        <span aria-hidden="true"><strong>Pakki-Pakki</strong><small>Gaming</small></span>
+      </a>
 
-        <div class="header-actions">
-          <nav class="primary-nav" data-i18n-aria="nav.aria" aria-label="Primary navigation">
-            <a href="#hockeygm" data-i18n="nav.project">HockeyGM</a>
-            <a href="#studio" data-i18n="nav.studio">Studio</a>
-          </nav>
-          <div class="locale-switch" role="group" data-i18n-aria="locale.aria" aria-label="Choose language">
-            <button type="button" data-locale="en" aria-pressed="true">EN</button>
-            <span aria-hidden="true">/</span>
-            <button type="button" data-locale="fi" aria-pressed="false">FI</button>
-          </div>
-        </div>
+      <div class="locale-switch" role="group" aria-label="Choose language" data-i18n-aria="locale.aria">
+        <button type="button" data-locale="en" aria-pressed="true">EN</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-locale="fi" aria-pressed="false">FI</button>
       </div>
     </header>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="shell hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow" data-i18n="hero.eyebrow">Independent game studio</p>
-            <h1 id="hero-title">
-              <span data-i18n="hero.titleTop">Games built for</span>
-              <span data-i18n="hero.titleBottom">the long season.</span>
-            </h1>
-            <p class="hero-intro" data-i18n="hero.intro">
-              Pakki-Pakki Gaming is developing HockeyGM — a persistent online hockey management game about building a club, outthinking rival managers and living with every result.
-            </p>
-
-            <dl class="status-board" data-i18n-aria="status.aria" aria-label="HockeyGM development status">
-              <div>
-                <dt data-i18n="status.projectLabel">Project</dt>
-                <dd>HockeyGM</dd>
-              </div>
-              <div>
-                <dt data-i18n="status.stateLabel">Status</dt>
-                <dd class="status-live"><span aria-hidden="true"></span><span data-i18n="status.stateValue">In development</span></dd>
-              </div>
-              <div>
-                <dt data-i18n="status.releaseLabel">Release</dt>
-                <dd data-i18n="status.releaseValue">Coming soon</dd>
-              </div>
-            </dl>
-          </div>
-
-          <figure class="rink-feature">
-            <div class="rink-frame">
-              <div class="rink-lamps" aria-hidden="true"><i></i><i></i><i></i></div>
-              <div class="rink-viewport">
-                <img
-                  class="rink-image"
-                  src="./assets/rink.webp"
-                  width="1338"
-                  height="753"
-                  alt="Pixel-art ice hockey rink from HockeyGM."
-                  data-i18n-alt="visual.rinkAlt"
-                >
-                <img class="hero-puck" src="./assets/puck.png" width="32" height="24" alt="" aria-hidden="true">
-              </div>
-              <figcaption>
-                <span data-i18n="visual.build">Pre-season build</span>
-                <strong><i aria-hidden="true"></i><span data-i18n="visual.systems">Match systems online</span></strong>
-              </figcaption>
-            </div>
-          </figure>
-        </div>
-      </section>
-
-      <section class="project-section" id="hockeygm" aria-labelledby="project-title">
-        <div class="shell">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="project.eyebrow">Featured project</p>
-            <h2 id="project-title" data-i18n="project.title">Build the club. Set the lines. Watch it play out.</h2>
-            <p data-i18n="project.intro">
-              HockeyGM is a persistent player-versus-player management game where every signing, tactic and season becomes part of your club's history.
-            </p>
-          </div>
-
-          <div class="project-pillars">
-            <article>
-              <span aria-hidden="true">C</span>
-              <h3 data-i18n="project.clubTitle">Run the whole club</h3>
-              <p data-i18n="project.clubBody">Shape the roster, staff, finances, tactics and arena around a long-term plan.</p>
-            </article>
-            <article>
-              <span aria-hidden="true">V</span>
-              <h3 data-i18n="project.competeTitle">Compete through real seasons</h3>
-              <p data-i18n="project.competeBody">Face other managers in leagues that keep moving, with consequences that carry forward.</p>
-            </article>
-            <article>
-              <span aria-hidden="true">R</span>
-              <h3 data-i18n="project.replayTitle">Replay every result</h3>
-              <p data-i18n="project.replayBody">Watch matches unfold live, return to the key moments and learn before the next puck drops.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="studio-section" id="studio" aria-labelledby="studio-title">
-        <div class="shell studio-grid">
-          <p class="eyebrow" data-i18n="studio.eyebrow">Pakki-Pakki Gaming</p>
-          <div>
-            <h2 id="studio-title" data-i18n="studio.title">Independent studio. Deep systems.</h2>
-            <p data-i18n="studio.body">We make management games where choices compound, stories emerge and a season feels worth remembering.</p>
-          </div>
-          <div class="studio-mark" aria-hidden="true"><span>P</span><i></i><span>P</span></div>
-        </div>
-      </section>
+    <main id="main" class="teaser" aria-labelledby="game-title">
+      <p class="signal" data-i18n="teaser.signal">A new season is waiting</p>
+      <h1 id="game-title" aria-label="Retro Hockey Manager">
+        <span>Retro</span>
+        <span>Hockey</span>
+        <span>Manager</span>
+      </h1>
+      <div class="center-line" aria-hidden="true"><i></i></div>
+      <p class="teaser-line" data-i18n="teaser.line">The ice remembers.</p>
+      <p class="release" data-i18n="teaser.release">Coming soon</p>
     </main>
 
     <footer class="site-footer">
-      <div class="shell footer-inner">
-        <p>© <span data-current-year>2026</span> Pakki-Pakki Gaming. <span data-i18n="footer.rights">All rights reserved.</span></p>
-        <p data-i18n="footer.location">Made in Finland. Built for the rink.</p>
+      <div>
+        <strong>Pakki-Pakki Gaming</strong>
+        <span data-i18n="company.about">Independent game studio · Finland</span>
       </div>
+      <p>© <span data-current-year>2026</span> Pakki-Pakki Gaming. <span data-i18n="company.rights">All rights reserved.</span></p>
     </footer>
   </body>
 </html>
