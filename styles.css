@@ -167,16 +167,6 @@ a {
   text-align: center;
 }
 
-.signal {
-  margin: 0 0 1.4rem;
-  color: var(--blue);
-  font-family: var(--display);
-  font-size: clamp(0.76rem, 1.4vw, 0.95rem);
-  font-weight: 700;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-}
-
 .teaser h1 {
   margin: 0;
   font-family: var(--display);
@@ -216,17 +206,8 @@ a {
   box-shadow: 0 4px 0 rgba(242, 238, 230, 0.14);
 }
 
-.teaser-line {
-  margin: 0;
-  color: var(--ink-soft);
-  font-family: var(--display);
-  font-size: clamp(1.1rem, 2vw, 1.45rem);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
 .release {
-  margin: 0.75rem 0 0;
+  margin: 0;
   color: var(--blue);
   font-family: var(--display);
   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
@@ -307,16 +288,12 @@ a {
     padding-block: 1rem 1.5rem;
   }
 
-  .signal {
-    margin-bottom: 0.8rem;
-  }
-
   .teaser h1 {
     font-size: clamp(5rem, 10vw, 8rem);
   }
 
   .center-line {
-    margin: 1.5rem 0 1rem;
+    margin: 1.5rem 0 1.2rem;
   }
 
   .site-footer {

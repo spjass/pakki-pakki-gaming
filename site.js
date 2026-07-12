@@ -2,12 +2,10 @@ const translations = {
   en: {
     "meta.title": "Retro Hockey Manager — Coming soon | Pakki-Pakki Gaming",
     "meta.description": "Retro Hockey Manager is coming soon from Pakki-Pakki Gaming, an independent game studio in Finland.",
-    "meta.ogDescription": "A new season is waiting. Retro Hockey Manager is coming soon.",
+    "meta.ogDescription": "Retro Hockey Manager is coming soon.",
     "accessibility.skip": "Skip to teaser",
     "brand.homeLabel": "Pakki-Pakki Gaming",
     "locale.aria": "Choose language",
-    "teaser.signal": "A new season is waiting",
-    "teaser.line": "The ice remembers.",
     "teaser.release": "Coming soon",
     "company.about": "Independent game studio · Finland",
     "company.rights": "All rights reserved."
@@ -15,12 +13,10 @@ const translations = {
   fi: {
     "meta.title": "Retro Hockey Manager — Tulossa pian | Pakki-Pakki Gaming",
     "meta.description": "Retro Hockey Manager on pian ilmestyvä Pakki-Pakki Gamingin peli. Pakki-Pakki Gaming on suomalainen itsenäinen pelistudio.",
-    "meta.ogDescription": "Uusi kausi odottaa. Retro Hockey Manager on tulossa pian.",
+    "meta.ogDescription": "Retro Hockey Manager on tulossa pian.",
     "accessibility.skip": "Siirry mainokseen",
     "brand.homeLabel": "Pakki-Pakki Gaming",
     "locale.aria": "Valitse kieli",
-    "teaser.signal": "Uusi kausi odottaa",
-    "teaser.line": "Jää muistaa.",
     "teaser.release": "Tulossa pian",
     "company.about": "Itsenäinen pelistudio · Suomi",
     "company.rights": "Kaikki oikeudet pidätetään."
