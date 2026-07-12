@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spjass.github.io/pakki-pakki-gaming/sitemap.xml
