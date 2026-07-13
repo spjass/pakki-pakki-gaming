@@ -27,6 +27,13 @@
     >
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Pakki-Pakki Gaming">
+    <meta
+      property="og:image"
+      content="https://spjass.github.io/pakki-pakki-gaming/assets/retro-hockey-manager-logo.png"
+    >
+    <meta property="og:image:width" content="1774">
+    <meta property="og:image:height" content="887">
+    <meta property="og:image:alt" content="Retro Hockey Manager logo">
     <link rel="stylesheet" href="./styles.css">
     <script src="./site.js" defer></script>
   </head>
@@ -52,10 +59,22 @@
     </header>
 
     <main id="main" class="teaser" aria-labelledby="game-title">
-      <h1 id="game-title" aria-label="Retro Hockey Manager">
-        <span>Retro</span>
-        <span>Hockey</span>
-        <span>Manager</span>
+      <h1 id="game-title" class="game-title">
+        <picture>
+          <source
+            media="(max-width: 560px)"
+            srcset="./assets/retro-hockey-manager-mark.png"
+            width="1774"
+            height="887"
+          >
+          <img
+            src="./assets/retro-hockey-manager-logo.png"
+            width="1774"
+            height="887"
+            alt="Retro Hockey Manager"
+            fetchpriority="high"
+          >
+        </picture>
       </h1>
       <div class="center-line" aria-hidden="true"><i></i></div>
       <p class="release" data-i18n="teaser.release">Coming soon</p>

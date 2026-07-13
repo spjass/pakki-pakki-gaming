@@ -159,7 +159,7 @@ a {
 
 .teaser {
   display: grid;
-  width: min(100% - 3rem, 860px);
+  width: min(100% - 3rem, 1120px);
   margin-inline: auto;
   place-content: center;
   justify-items: center;
@@ -167,23 +167,21 @@ a {
   text-align: center;
 }
 
-.teaser h1 {
+.game-title {
+  width: 100%;
   margin: 0;
-  font-family: var(--display);
-  font-size: clamp(5.4rem, 13vw, 10rem);
-  font-weight: 700;
-  letter-spacing: -0.035em;
-  line-height: 0.7;
-  text-transform: uppercase;
 }
 
-.teaser h1 span {
+.game-title picture,
+.game-title img {
   display: block;
+  width: 100%;
 }
 
-.teaser h1 span:nth-child(2) {
-  color: transparent;
-  -webkit-text-stroke: 2px var(--navy);
+.game-title img {
+  height: auto;
+  border: 1px solid rgba(44, 109, 183, 0.35);
+  box-shadow: 0 1.5rem 5rem rgba(0, 33, 67, 0.28);
 }
 
 .center-line {
@@ -256,13 +254,8 @@ a {
     width: calc(100% - 2rem);
   }
 
-  .teaser h1 {
-    font-size: clamp(4.45rem, 25vw, 6rem);
-    line-height: 0.75;
-  }
-
-  .teaser h1 span:nth-child(2) {
-    -webkit-text-stroke-width: 1.5px;
+  .game-title img {
+    border-color: rgba(44, 109, 183, 0.5);
   }
 
   .site-footer {
@@ -288,8 +281,8 @@ a {
     padding-block: 1rem 1.5rem;
   }
 
-  .teaser h1 {
-    font-size: clamp(5rem, 10vw, 8rem);
+  .game-title {
+    width: min(100%, 920px);
   }
 
   .center-line {
